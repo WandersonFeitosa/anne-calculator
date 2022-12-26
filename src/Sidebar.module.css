@@ -1,0 +1,124 @@
+.sidebarWrapper {
+  display: block;
+  width: 100%;
+}
+.sidebarRow {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.sidebarColummn {
+  border: 1px solid var(--red-400);
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .sidebarRow {
+    display: block;
+  
+  }
+  .sidebarColummn {
+    margin-bottom: 1rem;
+  }
+}
+.columnTitle {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--red-400);
+  font-weight: bold;
+}
+.aside {
+  background: var(--gray-700);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--red-400);
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--red-500);
+}
+input {
+  font-size: 0.875rem;
+  width: 100%;
+  background: var(--gray-900);
+  border: 0;
+  resize: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+input::placeholder {
+  color: var(--gray-100);
+  opacity: 0.4;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+button {
+  font-size: 0.875rem;
+  background: transparent;
+  color: var(--red-500);
+  border: 1px solid var(--red-500);
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background: var(--red-400);
+  color: var(--white);
+}
+
+select {
+  font-size: 0.875rem;
+  width: 100%;
+  background: var(--gray-900);
+  border: 0;
+  resize: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+select * {
+  background: var(--gray-700);
+}
+.diceInput {
+  width: 2rem;
+  margin: 0 0.5rem;
+}
+.longInput {
+  width: 100%;
+}
+.inputLine {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.labelInput {
+  min-width: 9rem;
+}

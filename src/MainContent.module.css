@@ -1,0 +1,41 @@
+.blockTitle {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--red-500);
+  font-weight: bold;
+}
+.block {
+  border: 1px solid var(--red-400);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  padding: 2rem 0.5rem;
+  position: relative;
+}
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+b {
+  color: var(--red-500);
+}
+.anne {
+  position: absolute;
+
+  bottom: 1rem;
+  left: 0;
+  right: 2rem;
+  margin-left: auto;
+  width: 120px;
+}
+@media (max-width: 768px) {
+  .block {
+    padding-bottom: 0;
+  }
+  .anne {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: block;
+  }
+}
